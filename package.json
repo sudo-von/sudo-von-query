@@ -1,0 +1,40 @@
+{
+  "name": "sudo-von-query",
+  "version": "0.0.0",
+  "description": "Alternative to [https://ask.fm/]",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz",
+    "release": "standard-version",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-von/sudo-von-query.git"
+  },
+  "keywords": [
+    "sudo-von",
+    "query",
+    "ask",
+    "fm"
+  ],
+  "author": "Jesús Ángel Rodríguez Martínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudo-von/sudo-von-query/issues"
+  },
+  "homepage": "https://github.com/sudo-von/sudo-von-query#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.0.11",
+    "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
