@@ -1,0 +1,47 @@
+{
+  "name": "sudo-von-query-authentication",
+  "version": "0.0.1",
+  "description": "Authentication service",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "start:dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-von/sudo-von-query.git"
+  },
+  "keywords": [
+    "sudo-von",
+    "query",
+    "ask",
+    "fm",
+    "authentication"
+  ],
+  "author": "Jesús Ángel Rodríguez Martínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudo-von/sudo-von-query/issues"
+  },
+  "homepage": "https://github.com/sudo-von/sudo-von-query#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.3.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.12.12",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
