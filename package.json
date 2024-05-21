@@ -4,7 +4,7 @@
   "description": "Alternative to [https://ask.fm/]",
   "scripts": {
     "commit": "cz",
-    "release": "standard-version --packageFiles package.json,authentication/package.json",
+    "release": "standard-version",
     "prepare": "husky"
   },
   "repository": {
