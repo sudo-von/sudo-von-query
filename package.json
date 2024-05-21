@@ -1,6 +1,6 @@
 {
   "name": "sudo-von-query",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Alternative to [https://ask.fm/]",
   "main": "index.js",
   "scripts": {
