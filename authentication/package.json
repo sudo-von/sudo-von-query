@@ -1,6 +1,6 @@
 {
   "name": "sudo-von-query-authentication",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Authentication service",
   "main": "index.js",
   "scripts": {
